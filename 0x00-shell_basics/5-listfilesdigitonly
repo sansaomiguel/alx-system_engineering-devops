@@ -1,4 +1,2 @@
+ls -aln
 #!/bin/bash
-ls -l
-ls -n
-ls -a
