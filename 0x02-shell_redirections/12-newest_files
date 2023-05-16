@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head -n 10
+ls -lt --time-style=+"%Y-%m-%d %H:%M:%S" | grep -v '^d' | head -n 10
